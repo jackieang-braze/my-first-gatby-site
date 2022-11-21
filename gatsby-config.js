@@ -29,7 +29,7 @@ module.exports = {
   {
     resolve: `gatsby-source-datocms`,
     options: {
-      apiToken: `6c88fdd2afe80e408ab34f2d7b2311`,
+      apiToken: `43adea0c1055e74c1dd61cd9f4b738`,
       preview: false,
       disableLiveReload: false,
     },

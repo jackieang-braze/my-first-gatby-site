@@ -1,0 +1,63 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add gatsby
+
+PATH: 
+  /opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: unable to get local issuer certificate
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1538:34)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:952:8)
+      at ssl.onhandshakedone (node:_tls_wrap:733:12)
+
+npm manifest: 
+  {
+    "name": "my-first-gatsby-site",
+    "version": "1.0.0",
+    "private": true,
+    "description": "my-first-gatsby-site",
+    "author": "jackieang-braze",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "@mdx-js/react": "^2.1.5",
+      "gatsby": "^5.0.0",
+      "gatsby-plugin-image": "^3.0.0",
+      "gatsby-plugin-manifest": "^5.0.0",
+      "gatsby-plugin-mdx": "^5.0.0",
+      "gatsby-plugin-sass": "^3.2.0",
+      "gatsby-plugin-sharp": "^5.0.0",
+      "gatsby-plugin-sitemap": "^6.0.0",
+      "gatsby-source-datocms": "^4.0.5",
+      "gatsby-source-filesystem": "^5.0.0",
+      "gatsby-transformer-remark": "^6.0.0",
+      "gatsby-transformer-sharp": "^5.0.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "sass": "^1.56.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
